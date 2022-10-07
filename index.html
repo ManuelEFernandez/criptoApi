@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=+, initial-scale=1.0" />
+    <title>criptoApi</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/b7df5782e3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/x-icon" href="/icon.png">
+  </head>
+  <body>
+    <h1>criptoApi</h1>
+    <div class="opciones-cripto">
+      <form id="form">
+        <div class="caja-input">
+          <input
+            type="text"
+            placeholder="Nombre de la moneda"
+            id="searchInput"
+            class="search-input"
+          />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <button type="submit" class="botonSubmit" id="btnContainer">Enviar</button>
+      </form>
+      <button type="submit" class="botonSubmit" id="top100">Ver top 100</button>
+    </div>
+
+    <div class="container-monedas"> <div class="titulo rank">Rank</div>
+    <div class="titulo nameCoin">Nombre</div>
+    <div class="titulo price">Precio</div>
+    <div class="titulo marketCap">Market Cap</div>
+    <div class="titulo volumen24">Volume 24 hs</div>
+    <div class="titulo porc24">%24 hs</div>
+    <div class="titulo porc7">%7 días</div></div>
+    <div class="container-monedas" id="gridMonedas">
+       
+        <!-- <div class="item rank">#1</div>
+        <div class="item nameCoin">Bitcoin (BTC)</div>
+        <div class="item price">$28000</div>
+        <div class="item marketCap">123456789</div>
+        <div class="item volumen24">123456789</div>
+        <div class="item porc24 stonks">3.78%</div>
+        <div class="item porc7 notStonks">-3.78%</div>
+        <div class="item rank par">#1</div>
+        <div class="item nameCoin par">Bitcoin(BTC)</div>
+        <div class="item price par">$28000</div>
+        <div class="item marketCap par">123456789</div>
+        <div class="item volumen24 par">123456789</div>
+        <div class="item porc24 par stonks">3.78%</div>
+        <div class="item porc7 par notStonks">-3.78%</div>
+        <div class="item rank">#1</div>
+        <div class="item nameCoin">Bitcoin(BTC)</div>
+        <div class="item price">$28000</div>
+        <div class="item marketCap">123456789</div>
+        <div class="item volumen24">123456789</div>
+        <div class="item porc24">-3.78%</div>
+        <div class="item porc7">-3.78%</div> -->
+
+        
+        
+        
+    </div>
+    <div class="navegacion">
+        <div class="btnPrev" id="btnPrev"><i class="fa-solid fa-angle-left"></i></div>
+
+        <div class="numPag" id="numPag">2</div>
+        <div class="btnNext" id="btnNext"><i class="fa-solid fa-angle-right"></i></div>
+    </div>
+    <script src="request.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
